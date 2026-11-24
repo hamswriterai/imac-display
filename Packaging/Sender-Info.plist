@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleName</key><string>iMac Display Sender</string>
+  <key>CFBundleDisplayName</key><string>iMac Display Sender</string>
+  <key>CFBundleIdentifier</key><string>local.imacdisplay.sender</string>
+  <key>CFBundleExecutable</key><string>sender</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleVersion</key><string>1</string>
+  <key>CFBundleShortVersionString</key><string>1.0</string>
+  <key>LSMinimumSystemVersion</key><string>12.3</string>
+  <key>LSUIElement</key><true/>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSLocalNetworkUsageDescription</key><string>Finds the iMac Display Receiver on your network.</string>
+  <key>NSBonjourServices</key><array><string>_imacdisplay._tcp</string></array>
+</dict></plist>
